@@ -12,8 +12,10 @@ from secret import username
 from secret import password
 
 def assignmenterrors():
+    #update the ODATA_URL to the URL provided by BBCRM
     SERVICE_URL = 'ODATA_URL'
     
+    #update the S26 to whatever the preface is for your BBCRM setup
     fullusername = 'S26\\' + username
     
     session = requests.Session()
