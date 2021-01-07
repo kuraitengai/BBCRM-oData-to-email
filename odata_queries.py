@@ -12,7 +12,7 @@ from secret import username
 from secret import password
 
 def assignmenterrors():
-    #update the ODATA_URL to the URL provided by BBCRM
+    #update the ODATA_URL to the URL provided by BBCRM from the query page
     SERVICE_URL = 'ODATA_URL'
     
     #update the S26 to whatever the preface is for your BBCRM setup
